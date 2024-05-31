@@ -1,1 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: 'Inter';
+  --accent-font: 'PressStart2P';
+  --main-wght: 400;
+  --accent-wght: 700;
+  --bg-color: #fff;
+  --color: #000;
+  --button-color: #fff;
+  --repeting-gradient: 
+    repeating-linear-gradient(#d3d3d3, transparent 2px),
+    repeating-linear-gradient(to left, #d3d3d3, transparent 2px),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  --margin: 100px;
+  --main-padding: 25px;
+  --like-icon-color: red;
+}
