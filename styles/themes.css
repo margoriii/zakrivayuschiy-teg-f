@@ -6,6 +6,20 @@
 */
 
 :root.theme-light {
+  --main-font: 'Inter', sans-serif;
+  --accent-font: 'PressStart2P', sans-serif;
+  --main-wght: 400;
+  --accent-wght: 700;
+  --bg-color: #fff;
+  --color: #000;
+  --button-color: #fff;
+  --repeting-gradient: 
+    repeating-linear-gradient(#d3d3d3, transparent 4px),
+    repeating-linear-gradient(to left, #d3d3d3, transparent 4px),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  --margin: 100px;
+  --main-padding: 25px;
+  --like-icon-color: red;
   background-color: var(--bg-color);
   color: var(--color);
 }
@@ -20,14 +34,14 @@
   background-color: var(--bg-color);
   color: var(--color);
   --repeting-gradient: 
-    repeating-linear-gradient(#000, transparent 2px),
-    repeating-linear-gradient(to left, #000, transparent 2px),
+    repeating-linear-gradient(#000, transparent 4px),
+    repeating-linear-gradient(to left, #000, transparent 4px),
     linear-gradient(#007f0c, #004306);
 }
 
 
 @media (prefers-color-scheme: dark) {
-  :root.theme-auto {
+  :root {
     --bg-color: #000;
     --color: #00CC14;
     --button-color: #00CC14;
@@ -36,8 +50,8 @@
     background-color: var(--bg-color);
     color: var(--color);
     --repeting-gradient: 
-    repeating-linear-gradient(#000, transparent 2px),
-    repeating-linear-gradient(to left, #000, transparent 2px),
+    repeating-linear-gradient(#000, transparent 4px),
+    repeating-linear-gradient(to left, #000, transparent 4px),
     linear-gradient(#007f0c, #004306);
   }
 }
