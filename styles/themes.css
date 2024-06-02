@@ -7,7 +7,7 @@
 
 :root.theme-light {
   --main-font: 'Inter', sans-serif;
-  --accent-font: 'PressStart2P', sans-serif;
+  --accent-font: 'PressStart2P', fantasy;
   --main-wght: 400;
   --accent-wght: 700;
   --bg-color: #fff;
